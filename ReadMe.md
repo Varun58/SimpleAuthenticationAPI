@@ -106,3 +106,26 @@ Response varies depending on whether the token is present and valid: if it is, t
 - The usernames are unique
 - If a field is passed in a request body, we can assume it is a non-empty string
 - (For Nodejs) You may use `uuid` and `lodash` libraries, among others, to simplify your solution.
+
+# Running the app
+- Clone the master repo
+- mvn clean install 
+- Run the Application.java class
+
+# APIs Screenshots
+
+1. Users API:
+![image](https://user-images.githubusercontent.com/3734164/139431516-d1d8f490-6594-4695-ab18-fe3de2989a51.png)
+
+2. Login API:
+![image](https://user-images.githubusercontent.com/3734164/139431576-50162af6-38cf-4068-9b41-b06be2117935.png)
+
+3. Create Collection API:
+![image](https://user-images.githubusercontent.com/3734164/139431913-3bf40d8e-581b-4967-81ec-acb499ffb862.png)
+
+4. View Collection API:
+![image](https://user-images.githubusercontent.com/3734164/139431998-5c77ce10-5dca-4c71-a1ec-61243cf28ee4.png)
+
+5. Logout API:
+![image](https://user-images.githubusercontent.com/3734164/139432097-a32454be-81a7-4b1c-b3d6-a11364538d5f.png)
+
